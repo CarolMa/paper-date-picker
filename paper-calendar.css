@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 .day-item.selected .day {
-  background: var(--default-primary-color);
+  background: #009688;
   color: var(--text-primary-color);
 }
 .day-item.today .day {
@@ -76,5 +76,5 @@
 }
 
 :host([isTouch]) #calendarList::-webkit-scrollbar {
-  width: 0 !important 
+  width: 0 !important
 }

@@ -20,7 +20,7 @@
   height: 240px;
   @apply(--layout-horizontal);
 }
-#heading, 
+#heading,
 #pages,
 paper-calendar {
   width: 270px !important;
@@ -39,8 +39,8 @@ paper-calendar {
 
 /** Heading ********************/
 #heading {
-  color: var(--text-primary-color); 
-  background: var(--default-primary-color);
+  color: var(--text-primary-color);
+  background: #009688;
   text-align: center;
   /* font-kerning: auto;
   letter-spacing: normal; */
@@ -49,7 +49,7 @@ paper-calendar {
 }
 #heading .weekday {
   padding: 8px;
-  background: var(--dark-primary-color);
+  background: #0c8176;
   @apply(--paper-font-body1);
 }
 #heading .date {
@@ -74,7 +74,7 @@ paper-calendar {
   color: var(--light-primary-color);
 }
 #heading.pg-chooseYear .date .year {
-  color: inherit; 
+  color: inherit;
 }
 #heading .date .day:hover,
 #heading .date .month:hover,
@@ -122,5 +122,5 @@ paper-calendar {
 }
 
 :host([isTouch]) #yearList::-webkit-scrollbar {
-  width: 0 !important 
+  width: 0 !important
 }
